@@ -1,0 +1,162 @@
+.up_nav_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.about_us_link_p{
+    margin: 0;
+    cursor: pointer;
+    display: none;
+}
+.about_us_link_p:hover{
+    color: var(--main-color-btn-blue);
+}
+
+.social_media_img_container{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.language_wrapper_up_nav{
+    transform: scale(0.7);
+}
+
+.cross_icon{
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.cross_icon:hover{
+    transform: rotate(45deg) scale(1.2);
+}
+
+.login_wrapper{
+    transform: scale(0.8);
+}
+
+.profile_nav_main_option_wrapper{
+    display:none;
+}
+
+.btn_wrapper{
+    display: none;
+}
+@media screen and (min-width: 768px){
+
+    .btn_wrapper{
+        width: max-content;
+        display: flex;
+        gap: 10px;
+    }
+    .btn_wrapper button{
+        width: max-content;
+    }
+
+    .up_nav_container{
+        gap: 10px;
+    }
+
+    .about_us_link_p{
+        display: block;
+    }
+
+    .nav_main_option_wrapper{
+        position: relative;
+        cursor: pointer;
+    }
+
+    /*un div auxiliar para que permanesca abierto al hacer hover en la opcion del nav*/
+    .nav_main_option_wrapper::after{
+        content: '';
+        width: 100%;
+        min-width: 70px;
+        height: 80px;
+        background: transparent;
+        position: absolute;
+        top: -8px;
+        right: 0;
+    }
+
+    .nav_main_option_wrapper p{
+        position: relative;
+        margin:0;
+        color: var(--color-gray-four);
+    }
+
+    .nav_main_option_wrapper:hover > p{
+        color: var(--main-color-btn-blue);
+    }
+    .nav_main_option_wrapper:hover > .nav_options_container{
+        display: block;
+    }
+
+    .profile_nav_main_option_wrapper{
+        display: block;
+        margin-left:60px;
+    }
+
+    .profile_nav_img_container{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        z-index: 2;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .nav_options_container{
+        position: absolute;
+        background: white;
+        padding: 10px;
+        min-width: max-content;
+        top: 60px;
+        right: 0;
+        border-radius: 8px;
+        display: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    }
+
+    .nav_options_container::after{
+        content: '';
+        width: 15px;
+        height: 20px;
+        background: white;
+        position: absolute;
+        top: -8px;
+        right: 20px;
+        transform: rotate(45deg);
+    }
+
+    .nav_option{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .nav_option:hover >p{
+        color: var(--main-color-btn-blue);
+    }
+
+    .nav_option p{
+       font-size: 16px;
+       margin:0;
+       color: var(--color-gray-four);
+    }
+
+    .profile_nav_options_container .nav_option{
+        padding-right: 45px;
+    }
+
+    .log_out_p_txt{
+        color: red !important;
+    }
+}

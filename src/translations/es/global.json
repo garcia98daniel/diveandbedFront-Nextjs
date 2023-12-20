@@ -1,0 +1,344 @@
+{
+    "common":{
+        "loading_txt":"Cargando",
+        "know_more_txt":"Conocer más",
+        "sign_in_txt":"Iniciar sesión",
+        "sign_up_txt":"Registrarse",
+        "email_txt":"Correo",
+        "password_txt":"Contraseña",
+        "create_an_account_txt": "Crear cuenta",
+        "share_txt": "Buscar",
+        "cancel_txt": "Cancelar",
+        "save_txt": "Guardar",
+        "go_back_txt": "Regresar",
+        "continue_txt": "Continuar",
+        "edit_txt": "Editar",
+        "no_rate_txt": "Aún sin evaluación",
+        "activities_txt":"Actividades",
+        "logout_txt": "Cerrar sesión",
+        "start_txt": "Comenzar",
+
+        "_txt": ""
+
+    },
+    "navbar":{
+        "aquatic_activities_txt":"Actividades acuáticas",
+        "dive_centers_txt":"Centros de Buceo",
+        "dive_zones_txt":"Zonas de Buceo",
+        "snorkel_txt":"Snorkel",
+        "scuba_txt":"Scuba",
+        "certifications_and_courses_txt":"Certificaciones y cursos",
+        "others_activities_txt":"Otras actividades",
+        "fishing_txt": "Pesca",
+        "boats_and_yachts_txt": "Embarcaciones y yates",
+        "lodging_txt":"Hospedaje",
+        "destinations_txt":"Destinos",
+        "guides_txt":"Guías",
+        "dive_txt":"Buceo",
+        "destination_txt":"Destino",
+        "activities_txt":"Actividades",
+        "reefs_txt":"Arrecife",
+        "about_as_txt":"Nosotros",
+        "social_enterprise_txt":"Empresa social",
+        "contact_txt":"Contacto",
+        "donation_projects_txt":"Proyectos a aportar",
+        "register_your_business_txt":"Registrar tu negocio",
+        "allies_txt":"Aliados",
+        "your_reservations_txt":"Tus reservas"
+    },
+    "footer":{
+        "address_txt":"Carretera a Chankanaab, San Miguel de Cozumel, Cozumel",
+        "aquatic_activities_txt":"Actividades acuáticas",
+        "lodging_txt":"Hospedaje",
+        "destinations_txt":"Destinos",
+        "about_as_txt":"Sobre nosotros",
+
+        "snorkel_txt":"Snorkel",
+        "scuba_txt":"Scuba",
+        "liveaboard_txt":"Liveaboard",
+        "yachts_txt":"Yates",
+        "tours_txt":"Tours",
+        "classes_and_certificates_txt":"Clases y certificados",
+
+        "condominiums_txt":"Codominios",
+
+        "dive_txt":"Buceo",
+        "destination_txt":"Destino",
+        "reefs_txt":"Arrecife",
+        "donation_projects_txt":"Proyectos a aportar",
+        "register_your_business_txt":"Registrar tu negocio",
+        
+        "language_txt":"Idioma",
+        "terms_of_use_txt":"Terminos de uso",
+        "privacy_policies_txt":"Politicas de privacidad",
+        
+        
+
+
+
+        "about_dnb_txt": "SOBRE D&B",
+        "from_cozumel_to_the_world_txt": "De Cozumel al mundo",
+        "social_enterprise_txt":"Empresa social",
+        "sustainable_model_txt":"Modelo sustentable",
+        "contact_txt":"Contacto",
+        "work_with_us_txt":"Trabaja con nosotros",
+        
+        "participate_in_dnb_txt":"PARTICIPA EN D&B",
+        "registration_diving_center_txt":"Alta Centro de Buceo",
+        "registration_hotel_lodging_txt":"Alta Hotel - Hospedaje",
+        "registration_commercial_partner_txt":"Alta de Aliado Comercial",
+        
+        "explore_txt":"EXPLORA",
+        "guides_txt":"Guías",
+        "diving_centers_txt":"Centros de buceo",
+        "activities_txt":"Actividades",
+        "hotels_txt":"Hoteles",
+        "dive_zones_txt":"Zonas de buceo",
+        "commercial_allies_txt":"Aliados Comerciales",
+        "civil_associations_txt":"Asociaciones Civiles",
+        "cozumels_txt":"Cozumel",
+        
+        "contributes_to_conservation_txt":"APORTA A LA CONSERVACIÓN",
+        "ACs_txt":"ACs",
+        "participate_with_DnB_txt":"Participa con D&B",
+
+        
+        "_txt":""
+
+    },
+    "home":{
+        "hero_txt":"Sumergete en Cozumel y vive tu proxima gran aventura",
+        "search_txt": "¿Qué te gustaria hacer? Ej. buceo, snorkeling, hospedaje",
+        "popular_activities_txt": "Actividades",
+        "top_certifications_txt": "Cetificaciones top",
+        "dream_destinations_txt": "Destinos de ensueño",
+        "the_best_centers_txt": "Centros de buceo",
+        "places_to_relax_txt": "Lugares para relajarse",
+        "lets_protect_the_planet_together_txt": "Protejamos juntos el planeta",
+        "lets_protect_the_planet_together_paragraph_txt": "Parte de los recaudos obtenidos a partir de tu compras y reservas dentro de la plataforma seran destinados a organizaciones que buscan dejar un impacto positivo en el planeta",
+        "reviews_title_txt": "Cientos de buzos ya están disfrutando de Cozumel",
+        "review_user_1_txt": "Cuando necesito saber que actividades hacer dejo que d&b sea mi guia",
+        "review_user_2_txt": "Cuando necesito saber que actividades hacer dejo que d&b sea mi guia",
+        "review_user_3_txt": "Cuando necesito saber que actividades hacer dejo que d&b sea mi guia",
+        "review_user_4_txt": "Cuando necesito saber que actividades hacer dejo que d&b sea mi guia",
+        "next_adventure_txt": "Encontremos juntos tu proxima aventura"
+
+    },
+    "login":{
+        "welcome_txt":"Bienvenido de nuevo",
+        "do_not_you_have_an_account_yet_txt":"Aún no tienes una cuenta?"
+    },
+    "register":{
+        "new_user_txt":"Nuevo por aquí?",
+        "description_web_1_txt": "Encuentra las mejores actividades en Cozumel",
+        "description_web_2_txt": "Realiza y organiza tus reservas facimente",
+        "description_web_3_txt": "Recibe ofertas y descuentos especiales",
+        "name_txt": "Nombre",
+        "already_have_an_account_txt": "Ya tienes una cuenta?"
+    },
+    "result":{
+        "lvl_experience_0_txt":" Sin experiencia ",
+        "lvl_experience_1_txt":" Básico ",
+        "lvl_experience_2_txt":" Intermedio ",
+        "lvl_experience_3_txt":" Avanzado ",
+        "filters_txt":"Filtros",
+        "see_map_txt":"Ver mapa",
+        "hide_map_txt":"Ocultar mapa",
+        "Load_more_txt": "Cargar más"
+    },
+    "center":{
+        "how_to_get?_txt":"¿Cómo llegar?",
+        "contact_txt": "Contactar",
+        "reservation_policies_txt": "Políticas de reservación",
+        "cancellation_policies_txt": "Políticas de cancelación",
+        
+        "description_txt": "Descripción",
+        "certificates_txt": "Certificados",
+        "transportation_and_equipment_txt": "Transportes y equipos",
+        "certifications_txt": "Certificaciones",
+        "activities_txt": "Actividades"
+    },
+    "hotel":{
+        "description_txt": "Descripción",
+        "services_txt": "Que ofrece",
+        "room_type_txt": "Tipos de habitación",
+        "popular_activities_txt": "Actividades",
+        "from_txt":"Desde",
+        "a_night_txt":"La noche",
+        "how_to_arrive_txt": "¿Cómo llegar?",
+        "book_txt": "Reservar",
+        "reservation_policies_txt": "Politicas de reservación",
+        "cancellation_policies_txt": "Politicas de cancelación",
+        "_txt": ""
+    },
+    "service":{
+        "people_txt": "personas",
+        "book_txt": "Reservar",
+        "description_txt": "Descripción",
+        "requirements_txt": "Requisitos",
+        "services_txt": "Que incluye",
+        "don't_include_txt": "Que no incluye",
+        "what_to_expect_txt": "Que esperar",
+        "lodging_txt": "Hospedaje",
+        "activities_txt": "Actividades",
+        "others_activities_txt":"Otras actividades",
+        "per_person_txt": "por persona",
+        "about_the_center_txt": "Sobre el centro",
+        "by_txt":"Por ",
+        "_txt": ""
+    },
+    "zone":{
+        "discover_txt": "Descubre",
+        "description_txt": "Descripción",
+        "average_depth_txt": "profundidad promedio",
+        "temperature_txt": "temperatura",
+        "approximate_visibility_txt" : "visibilidad aproximada",
+        "distance_from_the_nearest_port_txt":"Distancia del puerto más cercano",
+        "types_of_coral_txt":"Tipos de coral",
+        "wild_life_txt": "Vida silvestre",
+        "activities_on_this_reef_txt": "Actividades en este arrecife",
+        "get_to_know_the_palancar_ree_txt": "Conoce el arrecife de Palancar",
+        "_txt": ""
+    },
+    "myProfile":{
+        "edit_profile_txt": "Editar perfil",
+        "profile_picture_txt": "Foto de perfil",
+        "upload_picture_txt": "Subir foto",
+        "only_jpg_png_files_txt": "Solo fotos jpg o png",
+        "cover_photo_txt": "Foto de portada",
+        "_txt": ""
+    },
+    "reservations":{
+        "your_reservations_txt": "Tus reservas",
+        "your_reservations_will_be_confirmed_txt": "Tus reservas serán confirmadas en un plazo menor a 24 horas",
+        "all_txt": "Todas",
+        "confirmed_txt": "Confirmadas",
+        "pendent_txt": "Pendientes",
+        "people_txt": "personas",
+        "_txt": ""
+    },
+    "hotelCheckOut":{
+        "reserve_with_cause_txt": "Reserva con causa",
+        "information_process_txt": "Nosotros creamos tu reserva y la verificamos con el proveedor, una vez confirmada te contactamos con todos los detalles que necesitas. El pago del servicio lo realizas en el hospedaje o actividad",
+        "reservation_details_txt": "Detalles de la reserva",
+        "travelers_info_txt": "Datos de los viajeros",
+        "main_traveler_txt": "Viajero principal",
+        "input_full_name_txt": "Nombre completo",
+        "input_mail_txt": "Correo",
+        "input_phone_txt": "Telefono",
+        "language_txt": "Idioma",
+        "traveler_txt": "Viajero",
+
+        "people_txt": "personas",
+        "from_txt":"Desde",
+        "until_txt":"Hasta",
+        "price_txt":"Precio",
+        "payment_info_txt":"El pago de la actividad se realizará directamente en el centro de buceo",
+        "amount_payment_txt":"Total a pagar en el lugar",
+
+
+        "_txt": ""
+    },
+    "hotelCheckOut_step2":{
+        "reserve_with_cause_txt": "Reserva con causa",
+        "protection_warning_txt": "Esta pagina es segura. Todos tus datos se encuentran protegidos",
+        "information_process_txt": "Nosotros creamos tu reserva y la verificamos con el proveedor, una vez confirmada te contactamos con todos los detalles que necesitas. El pago del servicio lo realizas en el hospedaje o actividad",
+        "reservation_details_txt": "Detalles de la reserva",
+        "take_care_conzumel_txt": "Cuidemos juntos de Cozumel",
+        "contribute_txt": "Tu aporte al proyecto nos permite seguir apoyando a organizaciones que buscan proteger y cuidar los arrecifes y playas de Cozumel",
+        "people_who_contributed_txt": "+ 247 Buzos ya han donado",
+        "contribute_with_x_money_txt": "Aportar ",
+        "encrypted_pay_txt": "Pago encriptado",
+        
+        "_txt": ""
+    },
+
+
+    "serviceCheckOut":{
+        "reserve_with_cause_txt": "Reserva con causa",
+        "information_process_txt": "Nosotros creamos tu reserva y la verificamos con el proveedor, una vez confirmada te contactamos con todos los detalles que necesitas. El pago del servicio lo realizas en el hospedaje o actividad",
+        "reservation_details_txt": "Detalles de la reserva",
+        "divers_info_txt": "Datos de los buzos",
+        "main_diver_txt": "Buzo principal",
+        "input_full_name_txt": "Nombre completo",
+        "input_mail_txt": "Correo",
+        "input_lvl_txt": "Nivel",
+        "opt_0_lvl_txt": "Sin experiencia",
+        "opt_1_lvl_txt": "Básico",
+        "opt_2_lvl_txt": "Intermedio",
+        "opt_3_lvl_txt": "Avanzado",
+
+
+        "input_phone_txt": "Telefono",
+        "language_txt": "Idioma",
+        "diver_txt": "Buzo",
+        "_txt": ""
+    },
+    "serviceCheckOut_step2":{
+        "reserve_with_cause_txt": "Reserva con causa",
+        "protection_warning_txt": "Esta pagina es segura. Todos tus datos se encuentran protegidos",
+        "information_process_txt": "Nosotros creamos tu reserva y la verificamos con el proveedor, una vez confirmada te contactamos con todos los detalles que necesitas. El pago del servicio lo realizas en el hospedaje o actividad",
+        "reservation_details_txt": "Detalles de la reserva",
+        "take_care_conzumel_txt": "Cuidemos juntos de Cozumel",
+        "contribute_txt": "Tu aporte al proyecto nos permite seguir apoyando a organizaciones que buscan proteger y cuidar los arrecifes y playas de Cozumel",
+        "people_who_contributed_txt": "+ 247 Buzos ya han donado",
+        "contribute_with_x_money_txt": "Aportar ",
+        "encrypted_pay_txt": "Pago encriptado",
+
+        "_txt": ""
+    },
+    "successCheckOut":{
+        "congratulations_txt": "¡Felicidades! tu reserva ha sido realizada con exito",
+        "time_to_response_txt": "En menos de 24 horas te contactaremos para confirmar tu reserva. ¿Qué deseas hacer ahora?",
+        "go_home_txt": "Ir a inicio",
+        "keep_exploring_txt": "Seguir explorando",
+        "share_fb_txt": "¡Difunde el mensaje!",
+        "share_tw_txt": "Twitea tu apoyo",
+        "places_to_stay_txt": "Lugares para hospedarse",
+        "activities_to_do_txt": "Actividades que podrias hacer",
+        "_txt": ""
+    },
+    "opinionsComponent":{
+        "opinions_txt": "Opiniones",
+        "leave_an_opinion_txt": "Dejar una pregunta",
+        "write_opinion_txt": "Escribir opinión",
+        "send_txt": "Enviar",
+        "close_txt": "Cerrar",
+        "_txt": ""
+    },
+    "stepComponent":{
+        "step_1_txt": "Detalles",
+        "step_2_txt": "Aportación",
+        "step_3_txt": "Confirmación",
+        "_txt": ""
+    },
+    "WhatWouldYouLikeToDoModalFilterComponent":{
+        "dive_txt":"Buceo",
+        "snorkel_txt":"Snorkel",
+        "certifications_txt":"Certificación",
+        "lodging_txt":"Hospedaje",
+        "lvl_experience_0_txt":" Sin experiencia ",
+        "lvl_experience_1_txt":" Básico ",
+        "lvl_experience_2_txt":" Intermedio ",
+        "lvl_experience_3_txt":" Avanzado ",
+        "how_may_people_question_txt":" ¿Cuantas personas? ",
+        "date_txt":"Fecha",
+        "until_txt":"Hasta",
+
+        "_txt": ""
+    },
+    "ResultFilterModal":{
+        "filters_txt":"Filtros",
+        "sort_by_txt":"Ordenar por",
+        "latest_txt":"Más recientes",
+        "least_recent_txt":"Menos recientes",
+        "price_range_txt":"Rango de precio",
+        "zone_txt":"Zona",
+        "services_txt":"Servicios",
+        "languages_txt":"Idiomas",
+        "clear_txt":"Limpiar",
+        "see_result_txt":"Ver resultados",
+
+        "_txt": ""
+    }
+}

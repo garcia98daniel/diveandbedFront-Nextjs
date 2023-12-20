@@ -1,0 +1,136 @@
+
+.input_wrapper{
+    margin-top: 50px;
+    max-width: 293px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.subcategories_container{
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    overflow-y: hidden;
+    margin: 0 auto;
+    max-width: 1056px;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1056px;
+    margin-top: 15px;
+}
+
+.btn_container p{
+    white-space: nowrap;
+}
+
+.filter_btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2E8F0;
+    border-radius: 50px;
+    padding: 9px 12px;
+    box-sizing: border-box;
+    min-width: fit-content;
+    border: 1px solid #D1D5DB;
+    gap: 8px;
+}
+
+.map_btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2E8F0;
+    border-radius: 50px;
+    padding: 9px 12px;
+    box-sizing: border-box;
+    width: min-content;
+    border: 1px solid #D1D5DB;
+    gap: 8px;
+}
+
+.result_cards_map_container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1056px;
+    margin-top: 15px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.result_cards_btn_container{
+    margin: 0 auto;
+
+}
+
+.result_cards_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: flex-start;
+    gap: 10px 0;
+}
+
+.btn_wrapper{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.result_map_container{
+    /* display:none; */
+    width: 100%;
+    min-height:80vh;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.result_not_found{
+    color:gray;
+    padding: 100px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .input_wrapper{
+        margin-top: 50px;
+        max-width: initial;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .result_cards_map_container{
+        flex-direction: row;
+    }
+
+    .result_cards_container{
+        /* width: 528px; */
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .result_map_container{
+        display:block;
+        min-width: 480px;
+        background: gray;
+        border-radius: 12px;
+    }
+
+    .map_btn{
+        /* visibility: hidden; */
+    }
+
+}

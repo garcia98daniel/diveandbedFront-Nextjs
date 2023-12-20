@@ -1,0 +1,34 @@
+.cardsList{
+    padding: 0 0 0 15px;
+    padding-top: 20px;
+}
+
+.cardsList h2{
+    padding-left: 0px;
+}
+
+.tittle_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tittle_container a{
+    text-decoration: underline;
+    margin-right: 10px;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px){
+
+    .cardsList{
+        max-width: 1056px;
+        margin: 0 auto;
+    }
+    
+    .cardsList h2{
+        font-size: 36px;
+    }
+}

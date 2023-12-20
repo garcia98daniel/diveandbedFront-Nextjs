@@ -1,0 +1,205 @@
+.CheckOutService_page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.CheckOutService_page h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.go_back_container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-gray-four);
+    padding: 0 15px;
+}
+
+.go_back_container h2{
+    margin: 0;
+}
+
+.reserve_with_cause_txt{
+    width: 100%;
+    font-size: 2.5em;
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+
+.notice_container{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid var(--color-gray-five);
+    max-width: 442px;
+}
+
+.notice_container .logo_notice_container{
+    position: relative;
+    width: 82px;
+    height: 20px;
+}
+
+
+
+.form{
+    padding: 0 15px;
+}
+
+.info_diver_txt{
+    width: 100%;
+    font-size: 2.5em;
+    margin: 5px 0;
+}
+
+.select_label{
+    font-weight: bold;
+    margin-left: 2px;
+    color: #1E293B;
+}
+
+.select_wrapper{
+    margin-top: 15px;
+}
+.btn_form_wrapper{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+
+
+.right_section{
+    display: none;
+}
+
+.info_reservation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.CheckOutCard_wrapper{
+    padding: 0 15px;
+}
+
+.donors_container{
+    display:flex;
+    align-items: flex-end;
+    gap:5px;
+}
+
+.donors_img_container{
+    position: relative;
+    width: 52px;
+    height: 24px;
+}
+
+.donors_container small{
+    margin-bottom: -3px;
+    color: var(--color-gray-four);
+}
+
+.value_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.value_wrapper .row {display:flex}
+
+.paymentsway_img_container{
+    position: relative;
+    width: 195px;
+    height: 18px;
+}
+
+.inputs_container{
+    margin-top: 15px;
+}
+
+.inputs_container label{
+    font-weight: bold;
+    margin-left: 2px;
+    color: #1E293B;
+}
+
+.inputs_expiration_date_container {
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   gap:10px;
+}
+
+.cvv_container{
+    display: flex;
+    align-items: flex-end;
+    gap:10px;
+}
+
+.cvv_container div:first-child{
+    width: 50%;
+}
+
+.cvv_img_container{
+    position: relative;
+    width: 51.89px;
+    height: 32px;
+}
+
+.adress_container{
+    display: flex;
+   align-items: flex-end;
+   gap:10px;
+
+}
+
+.adress{
+    width: 100%;
+}
+
+.input_other_amount{
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 768px){
+    .main{
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reserve_with_cause_txt{
+        width: 100%;
+        font-size: 2em;
+        padding: 0 15px;
+        margin: 5px 0;
+    }
+
+    .left_section{
+        max-width: 480px;
+    }
+
+    .right_section{
+        display: block;
+    }
+
+    .info_reservation{
+        display:none;
+    }
+    
+    .CheckOutCard_wrapper{
+        display:none;
+    }
+}

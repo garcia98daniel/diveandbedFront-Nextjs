@@ -1,0 +1,45 @@
+   .OpinionItem{
+        display: flex;
+       gap: 10px;
+       margin-top: 10px;
+   }
+   
+   .user_OpinionItem_img_container{
+       position: relative;
+       height: 132px;
+       width: 132px;
+       border-radius: 50%;
+       top:0;
+   }
+
+   .OpinionItem_info_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   
+   .OpinionItem_info_container h2{
+    margin: 0;
+   }
+
+   .rate_date_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   .OpinionItem p{
+       color: #4B5563;
+       font-size: 18px;
+       margin: 0;
+   }
+
+   
+   @media screen and (min-width: 768px){
+
+       .user_OpinionItem_img_container{
+           height: 62px;
+           width: 62px;
+           margin-right: 10px;
+       }
+   }

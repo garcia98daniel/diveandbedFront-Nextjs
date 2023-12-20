@@ -1,0 +1,44 @@
+.btn_normal{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background: var(--main-color-btn-blue);
+    border:none;
+    border-radius: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.btn_normal:active{
+    background: #0F71BD;
+}
+
+.btn_inverted{
+    width: 100%;
+    background-color: white;
+    color: var(--main-color-btn-blue);
+    font-weight: bold;
+    border:none;
+    border: 1px solid var(--main-color-btn-blue);
+    border-radius: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.btn_inverted:active{
+    background: var(--main-color-btn-blue);
+    color: white;
+}
+
+
+.btn_disable{
+    width: 100%;
+    background-color: rgb(213, 213, 213);
+    color: gray;
+    font-weight: bold;
+    border:none;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+}

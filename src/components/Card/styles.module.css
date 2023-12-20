@@ -1,0 +1,51 @@
+
+.space_card_wrapper{
+    min-width: 248px;
+    width: 248px;
+    min-height: 300px;
+    padding: 0 16px 0 0;
+    cursor: pointer;
+}
+
+.card{
+    /* height: 247px; */
+    max-width: 248px;
+    border-radius: 12px;
+    /* margin: 10px; */
+}
+
+.card_img{
+	width: inherit;
+	height: 176px;
+	position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card_title{
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.activities_and_stars_qualification_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars_qualification_container{
+    display: flex;
+    align-items: center;
+}
+
+.star_logo{
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+
+.stars_qualification_container small{
+    font-size: 13px;
+    color: #4B5563;
+    margin-left: 10px;
+}

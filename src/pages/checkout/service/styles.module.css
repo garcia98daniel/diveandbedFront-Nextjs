@@ -1,0 +1,114 @@
+.CheckOutService_page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.go_back_container{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-gray-four);
+    padding: 0 15px;
+}
+
+.go_back_container h2{
+    margin: 0;
+}
+
+.reserve_with_cause_txt{
+    width: 100%;
+    font-size: 2.5em;
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+
+.notice_container{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid var(--color-gray-five);
+    max-width: 442px;
+}
+
+.notice_container .logo_notice_container{
+    position: relative;
+    width: 82px;
+    height: 20px;
+}
+
+
+
+.form{
+    padding: 0 15px;
+}
+
+.info_diver_txt{
+    width: 100%;
+    font-size: 2.5em;
+    margin: 5px 0;
+}
+
+.select_label{
+    font-weight: bold;
+    margin-left: 2px;
+    color: #1E293B;
+}
+
+.select_wrapper{
+    margin-top: 15px;
+}
+
+.btn_form_wrapper{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.right_section{
+    display: none;
+}
+
+.info_reservation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.CheckOutCard_wrapper{
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reserve_with_cause_txt{
+        width: 100%;
+        font-size: 2em;
+        padding: 0 15px;
+        margin: 5px 0;
+    }
+
+    .right_section{
+        display: block;
+    }
+
+    .info_reservation{
+        display:none;
+    }
+    
+    .CheckOutCard_wrapper{
+        display:none;
+    }
+}

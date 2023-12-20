@@ -1,0 +1,21 @@
+
+.select_wrapper{
+    border: 1px solid #D1D5DB;
+    height: 36px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.select{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}

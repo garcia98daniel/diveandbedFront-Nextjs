@@ -1,0 +1,138 @@
+.modal_container{
+    padding: 20px 10px;
+}
+
+.activities_container{
+    display:flex;
+    background: var(--color-gray-three);
+    padding: 8px;
+    justify-content: space-between;
+    border-radius: 50px;
+
+}
+
+.activity_selected{
+    width: 109px;
+    height: 32px;
+    background: #2898EE;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.activity{
+    color: var(--color-gray-one);
+    width: 109px;
+    height: 32px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.p_questions_txt{
+    margin-top:15px;
+    color: var(--color-gray-four);
+}
+
+.levels_exp_container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.exp_option{
+    padding: 0 15px;
+    height: 32px;
+    border: 1px solid #D1D5DB;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.exp_option_selecte{
+    padding: 0 15px;
+    height: 32px;
+    border: 1px solid #D1D5DB;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #e2e5ea;
+
+}
+
+.quantity_btns_container{
+    display: flex;
+    gap:15px;
+}
+
+.quantity_btns_container button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border: 1px solid #D1D5DB;
+    border-radius: 100px;
+    background: white;
+    cursor: pointer;
+}
+
+.quantity_btns_container button:active{
+    background: #e2e5ea;
+}
+
+.quantity_btns_container .quantity_people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    border: 1px solid #D1D5DB;
+    border-radius: 100px;
+    background: white;
+}
+
+.date_container{
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 100px;
+    display:flex;
+    width: fit-content;
+    gap: 50px;
+    border: 1px solid #D1D5DB;
+}
+
+.btns_container{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    display:flex;
+    gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .modal_container{
+        padding: 20px;
+    }
+
+    .btns_container{
+        display:flex;
+        max-width: 70%;
+        margin: initial;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 15px;
+     
+    }
+
+}

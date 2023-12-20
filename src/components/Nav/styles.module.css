@@ -1,0 +1,276 @@
+.cinta{
+    color:white;
+    width: 100%;
+    background: rgb(205, 0, 0);
+    text-align: center;
+    padding:10px 0;
+}
+
+.up_nav_wrapper{
+    display: none;
+}
+
+.up_nav_mobile_wrapper{
+    display: flex;
+}
+.up_nav_mobile_wrapper > div{
+    padding: 0 !important;
+    margin-right: 15px;
+}
+
+.nav{
+    position: sticky;
+    top:0;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+}
+
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1056px;
+}
+
+.logo_container{
+    width: 92px;
+    height: 30px;
+    position: relative;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.links_page{
+    display: none;
+}
+
+.burguer_btn{
+	/* width: 65px; */
+    display:block;
+    cursor: pointer;
+}
+
+.btn_wrapper{
+    display: none;
+}
+
+.profile_nav_main_option_wrapper{
+    display:none;
+}
+
+/* .lenguage_wrapper{
+    width: 25px;
+} */
+
+.hole_navs_container{
+    width: 100%;
+}
+
+.up_nav_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.social_medias_container{
+    display: flex;
+}
+
+.social_media_img_container{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.down_nav_container{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.language_wrapper_up_nav{
+    transform: scale(0.7);
+}
+
+.login_wrapper{
+    transform: scale(0.8);
+}
+
+.about_us_link_p{
+    margin: 0;
+    cursor: pointer;
+    display: none;
+}
+.about_us_link_p:hover{
+    color: var(--main-color-btn-blue);
+}
+
+.cross_icon{
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.cross_icon:hover{
+    transform: rotate(45deg) scale(1.2);
+}
+
+@media screen and (min-width: 768px){
+
+    .up_nav_wrapper{
+        display: block;
+    }
+    .up_nav_mobile_wrapper{
+        display: none;
+    }
+
+    .logo_container{
+        width: 112px;
+        height: 40px;
+        position: relative;
+        margin-right: 60px;
+    }
+
+    .down_nav_container{
+        justify-content: space-between;
+    }
+
+    .links_page{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        /* width: 565px; */
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .about_us_link_p{
+        display: block;
+    }
+
+    .up_nav_container{
+        gap: 10px;
+    }
+
+    .nav_main_option_wrapper{
+        position: relative;
+        cursor: pointer;
+    }
+
+    .aquatic_activities_p{
+        position:relative;
+        z-index: 2;
+    }
+
+    /*un div auxiliar para que permanesca abierto al hacer hover en la opcion del nav*/
+    .nav_main_option_wrapper::after{
+        content: '';
+        width: 100%;
+        min-width: 70px;
+        height: 80px;
+        background: transparent;
+        position: absolute;
+        top: -8px;
+        right: 0;
+    }
+
+    .nav_main_option_wrapper p{
+        position: relative;
+        margin:0;
+        color: var(--color-gray-four);
+    }
+
+    .nav_main_option_wrapper:hover > p{
+        color: var(--main-color-btn-blue);
+    }
+    .nav_main_option_wrapper:hover > .nav_options_container{
+        display: block;
+    }
+
+    .nav_options_container{
+        position: absolute;
+        background: white;
+        padding: 10px;
+        min-width: max-content;
+        top: 60px;
+        right: 0;
+        border-radius: 8px;
+        display: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    }
+
+    .nav_options_container::after{
+        content: '';
+        width: 15px;
+        height: 20px;
+        background: white;
+        position: absolute;
+        top: -8px;
+        right: 20px;
+        transform: rotate(45deg);
+    }
+
+    .nav_option{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .nav_option:hover >p{
+        color: var(--main-color-btn-blue);
+    }
+
+    .nav_option p{
+       font-size: 16px;
+       margin:0;
+       color: var(--color-gray-four);
+    }
+
+    .logo_nav_option_container{
+        width: 25px;
+        height: 25px;
+        position: relative;
+        
+    }
+
+    .profile_nav_img_container{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        z-index: 2;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .burguer_btn{
+        display:none;
+    }
+
+    .btn_wrapper{
+        display: block;
+    }
+
+    .profile_nav_main_option_wrapper{
+        display: block;
+        margin-left:60px;
+    }
+
+    .profile_nav_options_container .nav_option{
+        padding-right: 45px;
+    }
+
+    .log_out_p_txt{
+        color: red !important;
+    }
+}

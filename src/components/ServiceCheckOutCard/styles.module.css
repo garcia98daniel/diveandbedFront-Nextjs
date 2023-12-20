@@ -1,0 +1,68 @@
+.card{
+    max-width: 405px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.body_card{
+    padding: 10px;
+}
+
+.img_container{
+    width: 100%;
+	height: 256px;
+	position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.star_container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.star_container p{
+    margin-bottom: -3px;
+}
+
+.star_logo{
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row p{
+    margin: 5px 0;
+}
+
+.row p:nth-child(2){
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.line{
+    height: 0px;
+    width: 100%;
+    border-bottom: 1px solid #D1D5DB;
+}
+
+.body_card h3{
+    margin: 10px 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .card{
+        border: 1px solid #D1D5DB;
+    }
+}

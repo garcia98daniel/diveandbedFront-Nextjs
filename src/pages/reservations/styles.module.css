@@ -1,0 +1,64 @@
+
+
+.your_reservations_txt{
+    padding: 0 15px;
+}
+
+.your_reservations_p_txt{
+    display: flex;
+    padding: 0 15px;
+    color: var(--color-gray-four);
+    font-size: 16px;
+    width: 100%;
+}
+
+.taps_container{
+    margin-top: 15px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    cursor:pointer;
+    padding: 0 15px;
+}
+
+.taps_container h3{
+    margin:0;
+    padding-bottom: 5px;
+}
+
+.tap_selected{
+    color: #0077C9;
+    border-bottom: 4px solid #0077C9;
+}
+
+.reservationItems_container{
+    padding: 0 15px;
+}
+
+
+@media screen and (min-width: 768px){
+    .your_reservations_txt{
+        margin: 0 auto;
+        margin-top: 15px;
+        max-width: 1056px;
+    }
+    
+    .your_reservations_p_txt{
+        margin: 0 auto;
+        margin-top: 15px;
+        max-width: 1056px;
+    }
+
+    .taps_container{
+        margin: 0 auto;
+        margin-top: 15px;
+        max-width: 1056px;
+    }
+
+    .reservationItems_container{
+        margin: 0 auto;
+        margin-top: 15px;
+        max-width: 1056px;
+    }
+}

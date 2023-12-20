@@ -1,0 +1,124 @@
+.infoCenterCard{
+    padding: 10px;
+    /* border: 1px solid #D1D5DB; */
+    border-radius: 12px;
+    
+}
+
+.logo_certification_container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo_name_container{
+    display:flex;
+    align-items: center;
+}
+
+.logo_name_container h1{
+    margin: 0;
+}
+
+.logo_container{
+    position:relative;
+    width:48px;
+    height:48px;
+}
+
+.infoCenterCard_header h1{
+    width: 100%;
+    text-align: center;
+}
+
+
+.infoCenterCard_body{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.location_container{
+    width: 100%;
+    color: var(--color-gray-four);
+    display:flex;
+    font-size: 1.1em;
+}
+
+.icon_container{
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+.btns_container{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.btns_container *{
+    width: 100%;
+}
+
+.socialmedia_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.icon_socialmedia_container{
+    position:relative;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+
+.politics_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 10px;
+}
+
+.politics_container a{
+    min-width: fit-content;
+    text-decoration: underline;
+    color: var(--color-gray-two);
+}
+
+.infoCenterCard_header{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+
+    .infoCenterCard{
+        padding: 25px;
+        border: 1px solid #D1D5DB;
+        width: 50%;
+        height: fit-content;
+    }
+
+    .infoCenterCard_header h1{
+        text-align: left;
+    }
+
+    .icon_container{
+        width: 60px;
+        height: 30px;
+    }
+
+    .icon_socialmedia_container{
+        width:30px;
+        height:30px;
+    }
+
+    .infoCenterCard_header{
+        display: block;
+    }
+}

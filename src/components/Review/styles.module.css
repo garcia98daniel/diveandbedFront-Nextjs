@@ -1,0 +1,57 @@
+.review:nth-child(1){
+ display: none;
+}
+.review:nth-child(3){
+ display: none;
+}
+.review:nth-child(4){
+ display: none;
+}
+
+
+.review{
+    padding: 0 20px;
+}
+
+.user_review_img_container{
+    position: relative;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+}
+
+.user_review_user_say_img_container{
+    position: relative;
+    height: 42px;
+    width: 58px;
+}
+
+.review p{
+    color: #4B5563;
+    font-size: 18px;
+    margin:15px 0;
+}
+
+
+@media screen and (min-width: 768px){
+    .review{
+        display: flex;
+    }
+
+    .review:nth-child(1){
+        display: flex;
+    }
+    .review:nth-child(3){
+        display: flex;
+    }
+    .review:nth-child(4){
+        display: flex;
+    }
+
+
+    .user_review_img_container{
+        height: 128px;
+        width: 200px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+.marker_item{
+    background: white;
+    padding: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+.marker_item p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0;
+}
+.marker_item h3{
+    margin: 0;
+}
+
+
+.star_logo{
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+
+.mark_container{
+    color: black;
+}

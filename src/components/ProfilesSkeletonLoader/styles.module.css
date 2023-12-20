@@ -1,0 +1,140 @@
+.line{
+   width: 50%;
+   background-color:rgb(228, 228, 228);
+   height: 10px;
+   margin-top: 5px;
+}
+.h2_line{
+   width: 30%;
+   background-color:rgb(228, 228, 228);
+   height: 20px;
+   margin: 10px 0;
+}
+
+.infoCenterCard{
+    padding: 10px;
+    /* border: 1px solid #D1D5DB; */
+    border-radius: 12px;
+    
+}
+
+.profile_img{
+    margin: 0 auto;
+    height: 300px;
+    width: auto;
+}
+
+.details_container{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.detailItem{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 33%;
+    height: 72px;
+    color: var(--color-gray-four);
+}
+
+.icon_container{
+	width: 36px;
+	height: 36px;
+	position: relative;
+}
+
+.description{
+    padding:10px;
+    font-size: 16px;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.certifications{
+    padding:10px;
+    font-size: 16px;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.certifications ul{
+    padding-left: 25px;
+    margin:0;
+}
+
+.transport_team{
+    padding:10px;
+    font-size: 16px;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.transport_team ul{
+    padding-left: 25px;
+    margin:0;
+}
+
+.certification_list{
+    padding:10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1056px;
+}
+
+.activities{
+    padding:10px;
+}
+
+
+.center_info{
+    padding: 15px;
+}
+
+.logo_certification_container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo_container{
+    position:relative;
+    width:48px;
+    height:48px;
+}
+
+.infoCenterCard_header h1{
+    width: 100%;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+
+    .infoCenterCard{
+        padding: 25px;
+        border: 1px solid #D1D5DB;
+        width: 50%;
+        height: fit-content;
+    }
+    
+    .center_info{
+        display: none;
+    }
+    
+    .pictures_and_info_center_card_container{
+        width: 100%;
+        display: flex;
+        max-width: 1056px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .pictures_and_details_container{
+        width: 50%;
+    }
+}

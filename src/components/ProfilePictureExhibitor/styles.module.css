@@ -1,0 +1,50 @@
+.profile_picture_selected_container{
+    position: relative;
+    width: 100%;
+    height: 396px;
+    margin-bottom: 15px;
+}
+
+.profile_picture_container{
+    cursor: pointer;
+    position: relative;
+    width: 104px;
+    height: 80px;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.picture_selected{
+    cursor: pointer;
+    position: relative;
+    width: 104px;
+    height: 80px;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.picture_selected::after{
+    color: rgb(190, 190, 190);
+    font-size: 1.3em;
+    font-weight: bold;
+    content: "";
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% + 10px);
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.396);
+}
+
+
+@media screen and (min-width: 768px) {
+    .profile_picture_selected_container{
+        border-radius: 12px;
+        overflow:hidden;
+    }
+}

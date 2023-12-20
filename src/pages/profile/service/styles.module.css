@@ -1,0 +1,109 @@
+
+
+.details_container{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.detailItem{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 33%;
+    height: 72px;
+    color: var(--color-gray-four);
+}
+
+.detailItem p{
+    text-align: center;
+}
+
+.icon_container{
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+
+.info_txt{
+    padding:10px;
+    font-size: 16px;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.info_li_list{
+    padding:10px;
+    font-size: 16px;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.info_li_list ul{
+    padding-left: 25px;
+    margin:0;
+}
+
+.certification_list{
+    padding:10px;
+}
+
+.activities{
+    padding:10px;
+}
+
+
+.service_info{
+    padding: 15px;
+}
+
+.logo_certification_container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo_container{
+    position:relative;
+    width:48px;
+    height:48px;
+}
+
+.infoserviceCard_header h1{
+    width: 100%;
+    text-align: left;
+}
+
+.opinionsList_wrapper{
+    margin:0 auto;
+    max-width: 1056px;
+}
+
+.qualification_container{
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .service_info{
+        display: none;
+    }
+    
+    .pictures_and_info_service_card_container{
+        width: 100%;
+        display: flex;
+        max-width: 1056px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .pictures_and_details_container{
+        width: 50%;
+    }
+}

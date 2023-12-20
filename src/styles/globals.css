@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto|Rubik&display=swap'); */
+:root {
+  --main-color-btn-blue: #2898EE;
+  --color-black: #0F172A;
+  --color-gray-one: #1E293B;
+  --color-gray-two: #64748B;
+  --color-gray-three: #E2E8F0;
+  --color-gray-four: #4B5563;
+  --color-gray-five: #D1D5DB;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p , small{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+  background: black;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+  background: black;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-disabled{
+  display:none !important;
+}
+/* .slick-arrow .slick-next{
+
+} */
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 36px !important;
+  line-height: 1;
+  opacity: .75;
+  color: rgb(255, 255, 255) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-list{
+  padding-left: 0 !important;
+}
+
+.mapboxgl-map {
+  position:absolute !important; 
+  top:0 !important; 
+  bottom:0 !important; 
+  min-height:inherit !important;
+  height:inherit !important;
+  width:100% !important;
+}
+
+.mapboxgl-canvas{
+  /* width:1000px!important; */
+  /* height:100% !important; */
+}

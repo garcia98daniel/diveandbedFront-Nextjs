@@ -1,0 +1,36 @@
+.search{
+    display:flex;
+    text-align:left;
+    justify-content: space-between;
+    align-items:center;
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 50px;
+    background: white;
+    min-width: 293px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.search p{
+    height: min-content;
+    color: var(  --color-gray-four);
+    min-width: 70%;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.btn_wrapper{
+    width: 98px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .search{
+        width: 600px;
+    }
+
+}

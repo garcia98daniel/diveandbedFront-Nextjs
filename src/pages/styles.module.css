@@ -1,0 +1,267 @@
+
+.line{
+    width: 50%;
+    background-color:rgb(228, 228, 228);
+    height: 10px;
+    margin-top: 5px;
+  }
+.h3_line{
+    width: 30%;
+    background-color:rgb(228, 228, 228);
+    height: 30px;
+    margin: 10px 0;
+}
+
+.section_loading{
+    max-width: 1056px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.hero{
+    margin-top: -50px;
+    position: relative;
+    height:272px;
+    text-align: center;
+    color:white;
+    /* padding: 10px; */
+    /* background-image: url("/images/hero.jpg"); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.txt_input_hero_container{
+    max-width: 328px;
+    position: absolute;
+    /* top: 140px; */
+}
+
+.hero_txt{
+    font-size: 30px;
+}
+
+
+.hero_video {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.hero_video source {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.options_categories_container{
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    overflow-y: hidden;
+}
+
+.dream_reefs{
+    padding: 10px;
+}
+
+.dream_reefs_grid{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 136px 136px 136px 136px;
+    gap: 10px;
+}
+
+.dream_reefs_img_container{
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.dream_reefs_img_container h1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.dream_reefs_img_container:hover{
+    transform:scale(0.99)
+}
+.dream_reefs_img_container:active{
+    transform:scale(0.98)
+}
+
+.care_of_the_planet{
+    padding: 10px;
+}
+.care_of_the_planet p{
+    font-size: 1.45em;
+}
+
+.care_of_the_planet_img_container{
+    position: relative;
+    width: 100%;
+    height: 136px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.care_of_the_planet_btn_wrapper{
+    width: 135px;
+}
+
+.reviews{
+    padding: 10px;
+}
+
+.next_adventure{
+    /* height: 136px; */
+    color:white;
+    background-image: url("/images/sea.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:30px 45px;
+}
+
+.next_adventure_btn_wrapper{
+    width: 125px;
+}
+
+
+.home_page .slick-slide{
+    width: fit-content !important;
+  }
+
+
+.search_wrapper{
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+
+}
+
+@media screen and (min-width: 768px){
+    .search_wrapper{
+        margin: 50px;
+    }
+
+    .hero{
+        height: 352px;
+        background-position: top center;
+        margin-top: 0px;
+    }
+    
+    .txt_input_hero_container{
+        max-width: 775px;
+        top: 275px;
+    }
+
+    .hero_txt{
+        font-size: 48px;
+        /* color: #ffffffcf; */
+    }
+
+
+    .options_categories_container{
+       margin: 0 auto;
+       max-width: 1056px;
+    }
+
+
+
+    .dream_reefs{
+        margin: 0 auto;
+        max-width: 1056px;
+    }
+    .dream_reefs h2{
+        font-size: 36px;
+    }
+
+    .dream_reefs_grid{
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 224px 224px;
+    }
+
+    .dream_reefs_img_container:nth-child(1){
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+
+    .dream_reefs_img_container:nth-child(4){
+        grid-column: 3 / span 2;
+    }
+
+
+    .care_of_the_planet{
+        margin: 0 auto;
+        margin-top: 70px;
+        max-width: 1056px;
+        display: flex;
+        justify-content:space-between;
+        gap: 20px;
+    }
+
+    .care_of_the_planet_img_container{
+        width: 50%;
+        height: 301px;
+    }
+
+    .care_of_the_planet_info_container{
+        width: 50%;
+    }
+
+    .care_of_the_planet h2{
+        font-size: 36px;
+
+    }
+
+    .reviews{
+        margin: 0 auto;
+        max-width: 1056px;
+    }
+
+
+    .reviews .reviews_title{
+        text-align: center;
+        font-size: 36px;
+        width: 530px;
+        margin: 25px auto;
+    }
+
+    .reviews_container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap:20px;
+    }
+
+
+    .next_adventure h2{
+        font-size: 36px;
+        width: 500px;
+    }
+}

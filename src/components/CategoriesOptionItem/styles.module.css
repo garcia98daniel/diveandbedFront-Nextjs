@@ -1,0 +1,37 @@
+.category{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    min-width: 112px;
+    height: 72px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.category:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: var(--main-color-btn-blue);
+
+}
+.category:hover > .icon_container{
+    fill: var(--main-color-btn-blue);
+}
+
+.icon_container{
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+
+@media screen and (min-width: 768px){
+
+
+    .category{
+        min-width: 216px;
+    }
+
+
+}
